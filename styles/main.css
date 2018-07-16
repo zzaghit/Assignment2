@@ -1,0 +1,58 @@
+html{
+	font-family: sans-serif;	
+	 background-image: url("../images/bats.gif");   	 
+}
+/* Changing the H2 around to match what is needed.*/
+header h2{
+font-size: 225%;
+text-indent: 25px;
+}
+/* Changing the H3 around to match what is needed.*/
+header h3{
+	font-size: 160%;	
+	padding-left: 5em;	
+	}		
+/* Floating the image to the left */
+header img {
+	float: left;
+margin-right: 1em}
+/*bolding and sizing the first letter to be bigger*/
+h1::first-letter { 
+    font-size: 200%;    
+}
+/* Changing the color of the links*/
+a:link, a:visited {color: orange; font-weight: bold;}
+a:hover, a:focus {color:green}
+/* Spacing out the lists*/
+li{
+  margin: 6px 0;
+}
+/* Centering the footer*/
+header{
+	border-bottom-style: solid;
+	background: linear-gradient(45deg,white, orange 75%, black);
+	padding: 1em;
+}
+footer {
+	font-size: 85%;
+	text-align: center;	
+	padding: .75em;
+	border-top-style: solid;
+	background: linear-gradient(45deg,black, orange, white);
+}
+body{
+	width: 800px;
+	background-color: #FFFFFF;
+	border-style: solid;
+	box-shadow: 8px 8px;
+	margin: auto;		
+}
+.sidebar{
+    width: 160px;     
+    left: 0;     
+	float: left;	
+	margin-bottom: 175px;
+	border-right: solid;
+	padding-bottom: 321px;
+	
+}
